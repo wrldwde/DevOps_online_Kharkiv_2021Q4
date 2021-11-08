@@ -1,0 +1,19 @@
+3391da1 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{0}: merge develop: Fast-forward
+d785a89 HEAD@{1}: checkout: moving from develop to main
+3391da1 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{2}: commit (merge): merged and resolved the conflict in index.html
+9ee4cf5 (origin/images, images) HEAD@{3}: merge images: Fast-forward
+0fe2ee7 HEAD@{4}: checkout: moving from styles to develop
+9964c41 (origin/styles, styles) HEAD@{5}: commit: modified index.html with styles
+3f6bc73 HEAD@{6}: checkout: moving from develop to styles
+0fe2ee7 HEAD@{7}: checkout: moving from styles to develop
+3f6bc73 HEAD@{8}: commit: created styles folder and added style.css
+0fe2ee7 HEAD@{9}: checkout: moving from develop to styles
+0fe2ee7 HEAD@{10}: checkout: moving from images to develop
+9ee4cf5 (origin/images, images) HEAD@{11}: commit: added images source to index.html
+c342a06 HEAD@{12}: commit: added some images to image folder
+0fe2ee7 HEAD@{13}: reset: moving to HEAD
+0fe2ee7 HEAD@{14}: checkout: moving from develop to images
+0fe2ee7 HEAD@{15}: commit: added index.html
+d785a89 HEAD@{16}: checkout: moving from main to develop
+d785a89 HEAD@{17}: commit: initial commit
+5919170 HEAD@{18}: clone: from github.com:wrldwde/DevOps_online_Kharkiv_2021Q4.git
