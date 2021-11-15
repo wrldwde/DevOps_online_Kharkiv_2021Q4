@@ -64,6 +64,7 @@ Created an ECS cluster, made a Docker image, uploaded to cluster. Created a task
 <summary>Create a static website on Amazon S3, publicly available</summary>
 <br>
 Created an S3 bucket for static website, uploaded index.html and myself picture.
+ 
 [Link to website][website-S3-url] with picture and lists of used AWS services and completed labs.
 </details>
 
