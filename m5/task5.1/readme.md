@@ -1,20 +1,25 @@
 
-# TASK4.1
+# TASK5.1
 ## Workflow:
 
 ##### While doing this task, I have reported only main information about the fulfilment of task points: methods and results.
 <details>
 <summary> PART1 </summary>
 <br>
+  
+  
 1)  To log in as root, executed next:
+  
 `sudo su`
 
+  
 2) `passwd` command used for managing  users' passwords (changing, deleting, setting expiration date and status-check). The command works with the following system files:
 
 /etc/passwd - user accounts information    
 /etc/shadow - secure user accounts information
 /etc/pam.d/passwd - PAM configuration for passwd
 
+  
 3) To determine users in host system could be used next commands:
 
 `cat /etc/passwd` or `less` - shows *passwd* file which contain users name, password (stored in *shadow*), UID,  GID, GECOS (full user name), home dir, login shell
@@ -26,11 +31,15 @@ Commads, also used to determine users and information about them:
 `who`
 `finger`
 
+  
 ![Screen1](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.1/screenshots/Screenshot_1.png)
 
+  
 4) User personal information changed with following command:
+  
 `chfn` - changing personal information, displayed by `finger` command, as example
 
+  
 ![Screen2](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.1/screenshots/Screenshot_2.png)
 
 
@@ -48,6 +57,7 @@ Examples:
 
 `w wrldwde` - Display IP address instead of hostname for from field.
 
+  
 5) `more`  is  a filter for paging through text one screenful at a time. `less` provides `more` emulation plus extensive enhancements.
 
 Unlike `more`, `less` provides reading files without clogging a terminal.
@@ -104,9 +114,11 @@ Absolute
 `cd /home/wrldwde`
 
 
+  
 4)`ls` command executing example was demostrated on Part 1 point 8. *-a* option show all files and directories including starting with '.'. *-l* option show files and dirs as a list.
 
 
+  
 5)Following commands have been executed for this point:
 
 `mkdir task5.1_subdir`
@@ -121,6 +133,7 @@ Absolute
 ![Screen8](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.1/screenshots/Screenshot_8.png)
 
 
+  
 6) Following commands have been executed for this point:
 
 `mkdir test` 
@@ -146,6 +159,7 @@ About hard and soft links,  soft links (or symbolic) contain the address of the 
 Hardlink is implemented at a lower level in the file system. The file is located only in a certain place on the hard disk. But this location can be referenced by multiple links from the filesystem. Each of the links is a separate file, but they lead to one section of the hard drive. They work only within the same file system, they cannot refer to directories, and you can also move and rename and even delete a file without harming the link. 
 
 
+  
 7) Followin `locate` command have been executed to find 'squid' and 'traceroute' sequences:
 
 `locate -A squid`
@@ -155,6 +169,7 @@ Hardlink is implemented at a lower level in the file system. The file is located
 ![Screen11](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.1/screenshots/Screenshot_11.png)
 
 
+  
 8)To determine partitions in system could be used `df` command:
 
 `df -Th`
@@ -163,6 +178,7 @@ Hardlink is implemented at a lower level in the file system. The file is located
 ![Screen12](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.1/screenshots/Screenshot_12.png)
 
 
+  
 9) To count lines containing "sudo*" sequence in *.bash_history* file we can use next command:
 
 `grep -c "sudo*" .bash_history`
@@ -171,6 +187,7 @@ Hardlink is implemented at a lower level in the file system. The file is located
 ![Screen13](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.1/screenshots/Screenshot_13.png)
 
 
+  
 10)To find all files in */etc/* dir, we can use following command:
 
 `cd /etc/`
