@@ -205,4 +205,27 @@ SIGCONT - continue process;
 ![Screen30](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_30.png)
 
 ### PART 2
-#### 1)
+#### 1) In Windows we can use such OpenSSH command, like:
+`ssh user@host (-i "keyname.pem") - to connect remote host via SSH;`
+`ssh-keygen - to generate SSH authorization key;`
+`ssh user@host "command" - to quickly execute commands on remote host;`
+`ssh-agent` command, like `ssh-agent add "path to key"` also available.
+
+![Screen31](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_31.png)
+
+![Screen32](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_32.png)
+
+![Screen33](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_33.png)
+
+#### 2) To increase client-server connection security, next rules should be followed:
+- Disable empty passwords and use strong usernames and passwords;
+- Limit users' SSH Access;
+- Disable *root* logins;
+- Use public/private keys for authentication;
+- Configure Idle timeout interval;
+- Use SSH Protocol 2;
+- Use different from default 22 port;
+
+![Screen34](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_34.png)
+
+![Screen35](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_35.png)
