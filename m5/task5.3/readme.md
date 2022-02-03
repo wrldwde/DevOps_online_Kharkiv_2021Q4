@@ -229,3 +229,26 @@ SIGCONT - continue process;
 ![Screen34](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_34.png)
 
 ![Screen35](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_35.png)
+
+#### 3) There are next SSH encryption algoritms:
+- RSA
+- ED25519
+- ED25519-SK
+- DSA
+- ECDSA
+- ECDSA-SK
+
+Examples of implementation:
+
+![Screen36](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_36.png)
+
+![Screen37](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_37.png)
+
+![Screen38](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_38.png)
+
+#### 4)Just enought create port forwarding rule to connect to guest VM via SSh in NAT network:
+
+![Screen39](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_39.png)
+
+![Screen40](https://github.com/wrldwde/DevOps_online_Kharkiv_2021Q4/blob/main/m5/task5.3/Screens/S_40.png)
+
